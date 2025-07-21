@@ -1,0 +1,2 @@
+#!/bin/bash
+node xssl/index.js --repl

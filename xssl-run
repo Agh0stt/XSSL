@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if filename is passed
+if [ -z "$1" ]; then
+  echo "Usage: ./xssl-run <filename.xssl>"
+  exit 1
+fi
+
+# Run the file with node
+node xssl/index.js "$1"
