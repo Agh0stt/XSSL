@@ -5,7 +5,7 @@ chmod +x ./build.sh
 then do::
 ./build.sh
 it will download XSSL;
-them it will give a list of options.
+then it will give a list of options.
 to start interpreter (repl mode) do::
 ./START
 to run a .xssl file do::
