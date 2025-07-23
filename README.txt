@@ -2,23 +2,22 @@
 
 **XSSL** is a custom-designed interpreted shell scripting language with a hybrid structure combining shell commands, dynamic expressions, control flow logic, and custom function support. It includes a built-in REPL and a modular package system.
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/Agh0stt/XSSL&cloudshell_working_dir=XSSL&cloudshell_run_script=build.sh)
 
 ---
 
 ## 🚀 Getting Started
 
-**git clone --depth 1 https://github.com/Agh0stt/XSSL.git**  
-**cd XSSL/**
-**chmod +x build.sh**
-**./build.sh**
-**cd xssl/**
+git clone --depth 1 https://github.com/Agh0stt/XSSL.git  
+cd XSSL/
+chmod +x build.sh
+./build.sh
+cd xssl/
 
 ## now the installation has been done, now we will run the repl mode!
-***node index.js --repl***
+node index.js --repl
 ## This Starts the XSSL shell 
 ## now to run a file do:
-***node index.js --repl filename.xssl***
+node index.js --repl filename.xssl
 
 
 ## Keywords! :
