@@ -1,5 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
-# Or: #!/bin/bash if you're not using Termux
+#!/bin/bash
 
 NAME=$1
 BASE_URL="https://xssl-pkg-repo.vercel.app/stable/pkg"
