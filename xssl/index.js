@@ -198,11 +198,11 @@ else if (line === "uname") {
     }
 
     // INPUT
-    else if (line.startsWith("int input ")) {
+    else if (line.startsWith("input ")) {
       const [_, __, name, ...promptParts] = line.split(" ");
       const promptText = promptParts.join(" ").replace(/"/g, "");
       const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-      rl.question(promptText + ": ", (answer) => {
+      rl.question(promptText + "", (answer) => {
         vars[name] = answer;
         rl.close();
       });
@@ -276,8 +276,8 @@ else if (line.trim() === "fetch") {
     console.log(" Fetch failed. Are you inside a git repo?");
   }
 }
-    // GET PKG
-    else if (line.startsWith("get pkg ")) {
+    // GET
+    else if (line.startsWith("get ")) {
   const name = line.split(" ")[2];
   try {
     execSync(`bash scripts/getpkg.sh ${name}`, { stdio: "inherit" });
