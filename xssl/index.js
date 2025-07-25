@@ -416,7 +416,7 @@ if (process.argv.length < 3) {
 
 if (process.argv[2] === "--repl") {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  console.log("Welcome to XSSL!. Type `exit` to quit.");
+  console.log("Welcome to XSSL!. Type `exit` to quit.\nCopyright © 2025-Present Abhigyan Ghosh. All Rights Reserved.");
   function loop() {
     rl.question("xssl> ", (line) => {
       if (line === "exit") return rl.close();
